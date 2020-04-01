@@ -7,11 +7,7 @@ node_js:
 
 addons:
   apt:
-    sources:
-      - google-chrome
-    packages:
-      - dpkg
-      - google-chrome-stable
+    chrome: stable
 
 cache:
   directories:
